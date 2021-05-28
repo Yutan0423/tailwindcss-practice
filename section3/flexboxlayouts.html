@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    SP→タブレット、PC 横２→横２
+    <div class="flex justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow">
+        あああああああ
+      </div>
+      <div class="text-center border border-red-300 py-4 flex-grow">
+        あああああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 縦２→横２
+    <div class="md:flex justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow">
+        あああああああ
+      </div>
+      <div class="text-center border border-red-300 py-4 flex-grow">
+        あああああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 縦２→横２ 幅 5/12, 7/12
+    <div class="md:flex justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow md:w-5/12">
+        あああああああ
+      </div>
+      <div class="text-center border border-red-300 py-4 flex-grow md:w-7/12">
+        あああああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 縦２→横２(逆順)
+    <div class="md:flex md:flex-row-reverse justify-center mb-16">
+      <div class="text-center border border-red-300 py-4 flex-grow md:w-5/12">
+        あああああああ
+      </div>
+      <div class="text-center border border-blue-300 py-4 flex-grow md:w-7/12">
+        あああああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 横３→横３
+    <div class="flex justify-center mb-16">
+      <div class="text-center border border-red-300 flex-grow py-4">
+        あああああ
+      </div>
+      <div class="text-center border border-red-300 flex-grow py-4">
+        あああああ
+      </div>
+      <div class="text-center border border-red-300 flex-grow py-4">
+        あああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 縦３→横３
+    <div class="md:flex justify-center mb-16">
+      <div class="text-center border border-red-300 flex-grow py-4">
+        あああああ
+      </div>
+      <div class="text-center border border-red-300 flex-grow py-4">
+        あああああ
+      </div>
+      <div class="text-center border border-red-300 flex-grow py-4">
+        あああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 縦３→横３ 3/12, 6/12, 3/12
+    <div class="md:flex justify-center mb-16">
+      <div class="text-center border border-red-300 flex-grow py-4 md:w-3/12">
+        あああああ
+      </div>
+      <div class="text-center border border-red-300 flex-grow py-4 md:w-6/12">
+        あああああ
+      </div>
+      <div class="text-center border border-red-300 flex-grow py-4 md:w-3/12">
+        あああああ
+      </div>
+    </div>
+
+    SP→タブレット、PC 縦2→横4
+    <div class="flex flex-wrap justify-center mb-16">
+      <div
+        class="
+          text-center
+          border-red-300 border
+          py-4
+          flex-grow
+          md:w-1/2
+          lg:w-1/4
+        "
+      >
+        左上
+      </div>
+      <div
+        class="
+          text-center
+          border-red-300 border
+          py-4
+          flex-grow
+          md:w-1/2
+          lg:w-1/4
+        "
+      >
+        右上
+      </div>
+      <div
+        class="
+          text-center
+          border-red-300 border
+          py-4
+          flex-grow
+          md:w-1/2
+          lg:w-1/4
+        "
+      >
+        左下
+      </div>
+      <div
+        class="
+          text-center
+          border-red-300 border
+          py-4
+          flex-grow
+          md:w-1/2
+          lg:w-1/4
+        "
+      >
+        右下
+      </div>
+    </div>
+  </body>
+</html>
